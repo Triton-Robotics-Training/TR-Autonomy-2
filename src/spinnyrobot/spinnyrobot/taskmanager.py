@@ -2,6 +2,7 @@ import time
 
 import cv2 as cv
 import numpy as np
+import pybullet as p
 
 from spinnyrobot.camerascenemanager import CameraSceneManager
 
@@ -39,6 +40,7 @@ class TaskManager:
         self.csm.reset()
         self.timecounter = 1
         self.last_spun_time = time.time()
+        self.last_step_time = time.time()
         self.points = 0
 
     def spin_once(self):
@@ -51,6 +53,11 @@ class TaskManager:
         center = 320
         dist = 60
 
+        if (time.time() - self.last_step_time) > (1/240):
+            p.stepSimulation(self.csm.client_id)
+            print('stepping simulation...')
+            self.last_step_time = time.time()
+
         delta = time.time() - self.last_spun_time
         self.last_spun_time = time.time()
 
@@ -61,6 +68,8 @@ class TaskManager:
             self.points += 1
             print(f"Gained one point! You have {self.points} point(s).")
             self.timecounter = 0
+            return True
+        return False
 
     def render_image(self):
         return self.csm.render_image()
