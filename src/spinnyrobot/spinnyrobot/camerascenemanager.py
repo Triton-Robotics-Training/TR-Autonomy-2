@@ -54,7 +54,7 @@ class CameraSceneManager:
                                  cameraUpVector=[0, 0, 1])
         pm = p.computeProjectionMatrixFOV(90, 1, .1, 100)
         _, _, image, *_ = p.getCameraImage(width=640, height=640, viewMatrix=vm, projectionMatrix=pm,
-                                           )
+                                           renderer=p.ER_TINY_RENDERER)
         image = image[:, :, :3]
         image = cvtColor(image, cv2.COLOR_RGB2BGR)
         return image
