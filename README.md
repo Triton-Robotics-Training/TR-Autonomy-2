@@ -1,4 +1,4 @@
-# TR-CV-1
+# TR-CV-2
 Second Training Module for TR CV Recruits
 
 [![CV Training Resources](https://img.shields.io/badge/CV-%20Training%20Resources-eac817?labelColor=2a77a2&style=for-the-badge)](https://github.com/Triton-Robotics-Training/TR-CV-0/blob/main/resources.md)
@@ -19,6 +19,11 @@ https://github.com/Triton-Robotics-Training/TR-CV-2/assets/33632547/2f87f417-0c1
 ## Getting Started
 
 You will need to have numpy, opencv, and pybullet installed on your machine.
+```bash
+pip install pybullet
+pip install numpy
+pip install opencv-python
+```
 
 The main node can be run with (at the root):
 ```bash
