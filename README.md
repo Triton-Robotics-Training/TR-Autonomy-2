@@ -3,6 +3,8 @@ Second Training Module for TR CV Recruits
 
 [![CV Training Resources](https://img.shields.io/badge/CV-%20Training%20Resources-eac817?labelColor=2a77a2&style=for-the-badge)](https://github.com/Triton-Robotics-Training/TR-CV-0/blob/main/resources.md)
 
+### NOTE: IF YOU'RE USING A MAC M1 (ARM) USE THE NOOPENGL BRANCH OF THIS REPO
+
 ## Task Overview
 
 In this module you will be given a simulated robot which you will have to control to point at a target.
