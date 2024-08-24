@@ -7,9 +7,6 @@ import pybullet as p
 import pybullet_data
 from cv2 import cvtColor
 
-sdf_file_path = str(resources.path('spinnyrobot.models', 'model.sdf'))
-
-
 class CameraSceneManager:
     def __init__(self):
         self.client_id = p.connect(p.GUI)
@@ -18,7 +15,8 @@ class CameraSceneManager:
         self.plane_id = p.loadURDF("plane.urdf", physicsClientId=self.client_id)
         self.box_id = p.loadURDF("cube.urdf", [-3, 0, .5], physicsClientId=self.client_id)
         p.changeVisualShape(self.box_id, -1, rgbaColor=[1, 0, 0, 1], physicsClientId=self.client_id)
-        self.bot_id = p.loadSDF(sdf_file_path, physicsClientId=self.client_id)[0]
+        with resources.path('spinnyrobot.models', 'model.sdf') as sdf_file_path:
+            self.bot_id = p.loadSDF(str(sdf_file_path), physicsClientId=self.client_id)[0]
         p.resetBasePositionAndOrientation(self.bot_id, [0, 0, .5], [0, 0, 0, 1], physicsClientId=self.client_id)
         p.changeVisualShape(self.bot_id, 2, rgbaColor=[0, 0, 0, 0], physicsClientId=self.client_id)
         p.setRealTimeSimulation(True, physicsClientId=self.client_id)
