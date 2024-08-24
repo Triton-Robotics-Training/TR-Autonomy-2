@@ -1,14 +1,14 @@
-# TR-CV-2
-Second Training Module for TR CV Recruits
+# TR-Autonomy-2
+Second Training Module for TR Autonomy Recruits
 
-[![CV Training Resources](https://img.shields.io/badge/CV-%20Training%20Resources-eac817?labelColor=2a77a2&style=for-the-badge)](https://github.com/Triton-Robotics-Training/TR-CV-0/blob/main/resources.md)
+[![Autonomy Training Resources](https://img.shields.io/badge/CV-%20Training%20Resources-eac817?labelColor=2a77a2&style=for-the-badge)](https://github.com/Triton-Robotics-Training/TR-CV-0/blob/main/resources.md)
 
 ### NOTE: IF YOU'RE USING A MAC M1 (ARM) USE THE NOOPENGL BRANCH OF THIS REPO
 
 ## Task Overview
 
 In this module you will be given a simulated robot which you will have to control to point at a target.
-- You don't have to write a controller, just tell the robot which angle to point.
+- You don't have to write a controller, just tell the robot which angle to point by publishing to /desired_angle.
 - The target is always visible from the 0 radians position, and the FOV of the camera is 90 degrees, so the furthest one should rotate is $\frac{\pi}{2}$ radians.
 - The robot will score a "point" if it centers the target cube on screen for 2 seconds.
 - A point is scored if the average position of the red pixels is within 60 pixels in either direction of the x-coordinate center of the image.
@@ -20,16 +20,19 @@ https://github.com/Triton-Robotics-Training/TR-CV-2/assets/33632547/2f87f417-0c1
 
 ## Getting Started
 
-You will need to have numpy, opencv, and pybullet installed on your machine.
-```bash
-pip install pybullet
-pip install numpy
-pip install opencv-python
+Navigate to the source of your workspace and clone the repository:
+``` bash
+cd training_ws/src
+git clone https://github.com/Triton-Robotics-Training/TR-Autonomy-2.git
 ```
-
-The main node can be run with (at the root):
+To build and run the package, follow the same steps as last module:
 ```bash
+cd ..
+source /opt/ros/humble/setup.bash
+rosdep install -i --from-path src --rosdistro humble -y
 colcon build
+OPEN_NEW_TERMINAL
+cd training_ws
 source install/setup.bash
 ros2 run spinnyrobot spinnyrobot
 ```
@@ -68,6 +71,8 @@ Your task is to publish a Float32 to /desired_angle, somehow making the robot po
 
 An outline of how to get the image into ROS2 C++ for processing with opencv is here:
 https://www.theconstructsim.com/how-to-integrate-opencv-with-a-ros2-c-node/
+
+For extra help, this ia github code example of subscribing to a ROS image publisher (/robotcam) and converting it to an openCV image type to be processed: [link](https://gist.github.com/nightduck/a07c185faad82aeaacbfa87298d035c0).
 
 This is what the result should look like:
 
