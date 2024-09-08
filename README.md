@@ -20,19 +20,17 @@ https://github.com/Triton-Robotics-Training/TR-CV-2/assets/33632547/2f87f417-0c1
 
 ## Getting Started
 
-Navigate to the source of your workspace and clone the repository:
+Clone the repository to setup your next workspace.
 ``` bash
-cd training_ws/src
 git clone https://github.com/Triton-Robotics-Training/TR-Autonomy-2.git
 ```
 To build and run the package, follow the same steps as last module:
 ```bash
-cd ..
+cd TR-Autonomy-2/
 source /opt/ros/humble/setup.bash
 rosdep install -i --from-path src --rosdistro humble -y
 colcon build
-OPEN_NEW_TERMINAL
-cd training_ws
+# OPEN_NEW_TERMINAL AND NAVIGATE TO YOUR REPOSITORY
 source install/setup.bash
 ros2 run spinnyrobot spinnyrobot
 ```
