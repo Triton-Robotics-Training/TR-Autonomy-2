@@ -9,7 +9,7 @@ Second Training Module for TR Autonomy Recruits
 
 In this module you will be given a simulated robot which you will have to control to point at a target.
 - You don't have to write a controller, just tell the robot which angle to point by publishing to /desired_angle.
-- The target is always visible from the 0 radians position, and the FOV of the camera is 90 degrees, so the furthest one should rotate is $\frac{\pi}{2}$ radians.
+- The target is always visible from the 0 radians position, and the FOV of the camera is 90 degrees, so the furthest one should rotate is $\pm\frac{\pi}{4}$ radians.
 - The robot will score a "point" if it centers the target cube on screen for 2 seconds.
 - A point is scored if the average position of the red pixels is within 60 pixels in either direction of the x-coordinate center of the image.
 - The robot's position will be homed to the 0 radians position instantly after every successful point scored.
@@ -70,7 +70,7 @@ Your task is to publish a Float32 to /desired_angle, somehow making the robot po
 An outline of how to get the image into ROS2 C++ for processing with opencv is here:
 https://www.theconstructsim.com/how-to-integrate-opencv-with-a-ros2-c-node/
 
-For extra help, this ia github code example of subscribing to a ROS image publisher (/robotcam) and converting it to an openCV image type to be processed: [link](https://gist.github.com/nightduck/a07c185faad82aeaacbfa87298d035c0).
+For extra help, this is a github code example of subscribing to a ROS image publisher (/robotcam) and converting it to an openCV image type to be processed: [link](https://gist.github.com/nightduck/a07c185faad82aeaacbfa87298d035c0).
 
 This is what the result should look like:
 
