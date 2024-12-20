@@ -19,6 +19,13 @@ The goal of this assignment is for the robot to score points without user input.
 https://github.com/Triton-Robotics-Training/TR-CV-2/assets/33632547/2f87f417-0c14-410c-9a57-3aefcbd1d4ca
 
 ## Getting Started
+Make sure you have pip installed.
+``` bash
+# check pip
+python3 -m pip --version
+# if not existing, install it
+sudo apt install python3-venv python3-pip
+```
 
 Clone the repository to setup your next workspace.
 ``` bash
@@ -28,6 +35,8 @@ To build and run the package, follow the same steps as last module:
 ```bash
 cd TR-Autonomy-2/
 source /opt/ros/humble/setup.bash
+# python dislikes systemwide install, but ROS only works with system python so we set this ENV 
+export PIP_BREAK_SYSTEM_PACKAGES=1
 rosdep install -i --from-path src --rosdistro humble -y
 colcon build
 # OPEN_NEW_TERMINAL AND NAVIGATE TO YOUR REPOSITORY
