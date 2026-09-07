@@ -1,3 +1,6 @@
 /build/
 /install/
 /log/
+/.venv
+/compile_commands.json
+/.cache/

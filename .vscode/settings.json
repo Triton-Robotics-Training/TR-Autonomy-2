@@ -1,0 +1,11 @@
+{
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": [
+    "--background-index",
+    "--clang-tidy",
+    "--header-insertion=never",
+    "--completion-style=detailed",
+    "--query-driver=/usr/bin/c++,/usr/bin/g++,/usr/bin/gcc,/usr/bin/cc"
+  ],
+  "clangd.onConfigChanged": "restart"
+}
