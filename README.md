@@ -126,8 +126,8 @@ frame (BGR) --> HSV --> binary mask --> blob --> pixel offset --> angle
    [Color spaces in OpenCV](https://learnopencv.com/color-spaces-in-opencv-cpp-python/)
 3. **Thresholding to a mask** —
    [Thresholding Operations using inRange](https://docs.opencv.org/4.x/da/d97/tutorial_threshold_inRange.html).
-   Its C++ example is a complete six-trackbar HSV tuner; steal it and tune against the running
-   sim rather than guessing bounds.
+   Its C++ example is a complete six-trackbar HSV tuner. You can use an adapted version of this tuner running
+   with the sim rather than guessing bounds. Another useful tutorial for this is [Color Detection in OpenCV: A Hands on Project to Master HSV filtering](https://medium.com/@VinitKumarGupta/color-detection-in-opencv-a-hands-on-project-to-master-hsv-filtering-5fa9fd928561).
 4. **Mask to a single x-coordinate** —
    [image moments](https://learnopencv.com/find-center-of-blob-centroid-using-opencv-cpp-python/)
    (simpler) or [contours](https://learnopencv.com/contour-detection-using-opencv-python-c/)
