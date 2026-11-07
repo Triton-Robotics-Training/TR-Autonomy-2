@@ -52,6 +52,35 @@ class YourSolution : public rclcpp::Node {
 
                 cv::waitKey(1);
 
+                cv::Moments moments = cv::moments(mask, true);
+                //check whether any red pixels are detected
+                if (moments.m00 > 0) {
+                    double targetx = moments.m10 / moments.m00;
+                    double image_center = image.cols/2.0;
+                    double pixel_offset = targetx - image_center;
+                    double fov = M_PI / 2.0;  // 90 degrees
+                    double focal_length = (image.cols / 2.0) / std::tan(fov / 2.0);
+                    double relative_angle = std::atan((targetx - image_center) / focal_length);
+                    RCLCPP_INFO(
+                        this->get_logger(),
+                        "Target X: %.2f | Image center: %.2f | Offset: %.2f",
+                        targetx,
+                        image_center,
+                        pixel_offset
+                    );
+                    RCLCPP_INFO(
+                        this->get_logger(),
+                        "Relative angle: %.4f radians (%.2f degrees)",
+                        relative_angle,
+                        relative_angle * 180.0 / M_PI
+                    );
+                } else {
+                    RCLCPP_WARN(
+                        this->get_logger(),
+                        "No red target detected!"
+                    );
+                }
+
                 RCLCPP_INFO(
                     this->get_logger(),
                     "Received image: %d x %d",
