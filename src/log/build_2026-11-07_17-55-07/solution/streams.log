@@ -1,0 +1,53 @@
+[0.012s] Invoking command in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/solution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/yoursolution -DCMAKE_INSTALL_PREFIX=/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/solution
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.144s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.326s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.447s] -- Found Python3: /home/justin/Group090_FA26/.venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.518s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.550s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.558s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.604s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.688s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.711s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.751s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.758s] -- Looking for pthread.h
+[0.847s] -- Looking for pthread.h - found
+[0.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.932s] -- Found Threads: TRUE  
+[0.969s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.994s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.006s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.020s] Traceback (most recent call last):
+[1.021s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[1.021s]     from catkin_pkg.package import parse_package_string
+[1.021s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.022s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.022s]   execute_process(/home/justin/Group090_FA26/.venv/bin/python3
+[1.023s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.023s]   /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/yoursolution/package.xml
+[1.023s]   /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/solution/ament_cmake_core/package.cmake)
+[1.023s]   returned error code 1
+[1.023s] Call Stack (most recent call first):
+[1.023s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.023s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.023s]   CMakeLists.txt:34 (ament_package)
+[1.023s] 
+[1.023s] [0m
+[1.023s] -- Configuring incomplete, errors occurred!
+[1.023s] See also "/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/solution/CMakeFiles/CMakeOutput.log".
+[1.033s] Invoked command in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/solution' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/yoursolution -DCMAKE_INSTALL_PREFIX=/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/solution

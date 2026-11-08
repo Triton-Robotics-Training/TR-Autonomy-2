@@ -1,0 +1,21 @@
+[0.507s] Invoking command in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/spinnyrobot': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build install --record /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/install.log --install-scripts $base/lib/spinnyrobot --single-version-externally-managed install_data
+[0.664s] running egg_info
+[0.664s] writing ../build/spinnyrobot/spinnyrobot.egg-info/PKG-INFO
+[0.665s] writing dependency_links to ../build/spinnyrobot/spinnyrobot.egg-info/dependency_links.txt
+[0.665s] writing entry points to ../build/spinnyrobot/spinnyrobot.egg-info/entry_points.txt
+[0.665s] writing requirements to ../build/spinnyrobot/spinnyrobot.egg-info/requires.txt
+[0.665s] writing top-level names to ../build/spinnyrobot/spinnyrobot.egg-info/top_level.txt
+[0.666s] reading manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+[0.666s] writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] running install
+[0.667s] running install_lib
+[0.668s] running install_data
+[0.668s] running install_egg_info
+[0.670s] removing '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.671s] Copying ../build/spinnyrobot/spinnyrobot.egg-info to /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info
+[0.671s] running install_scripts
+[0.686s] Installing spinnyrobot script to /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/spinnyrobot
+[0.686s] writing list of installed files to '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/install.log'
+[0.727s] Invoked command in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/spinnyrobot' returned '0': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build install --record /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/install.log --install-scripts $base/lib/spinnyrobot --single-version-externally-managed install_data

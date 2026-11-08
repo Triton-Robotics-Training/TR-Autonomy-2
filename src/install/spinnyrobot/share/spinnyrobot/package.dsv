@@ -1,0 +1,6 @@
+source;share/spinnyrobot/hook/pythonpath.ps1
+source;share/spinnyrobot/hook/pythonpath.dsv
+source;share/spinnyrobot/hook/pythonpath.sh
+source;share/spinnyrobot/hook/ament_prefix_path.ps1
+source;share/spinnyrobot/hook/ament_prefix_path.dsv
+source;share/spinnyrobot/hook/ament_prefix_path.sh

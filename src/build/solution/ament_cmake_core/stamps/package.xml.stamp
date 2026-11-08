@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>solution</name>
+  <version>0.0.1</version>
+  <description>Simple red cube tracking with ROS 2 and OpenCV sliders.</description>
+
+  <maintainer email="student@example.com">Student</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+s
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>libopencv-dev</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,153 @@
+[0.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77dbe3769990>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77dbe3768be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77dbe3768be0>>, mixin_verb=('build',))
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.185s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'spinnyrobot' with type 'ros.ament_python' and name 'spinnyrobot'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(yoursolution) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(yoursolution) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(yoursolution) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(yoursolution) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(yoursolution) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(yoursolution) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(yoursolution) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(yoursolution) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(yoursolution) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'yoursolution' with type 'ros.ament_cmake' and name 'tr2_red_tracker'
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/justin/ros2_ws/install
+[0.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'spinnyrobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot', 'merge_install': False, 'path': '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/spinnyrobot', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'tr2_red_tracker' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'tr2_red_tracker' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'tr2_red_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'tr2_red_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'tr2_red_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'tr2_red_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'tr2_red_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'tr2_red_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'tr2_red_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'tr2_red_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/tr2_red_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker', 'merge_install': False, 'path': '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/yoursolution', 'symlink_install': False, 'test_result_base': None}
+[0.282s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.283s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.283s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/spinnyrobot' with build type 'ament_python'
+[0.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('spinnyrobot', 'ament_prefix_path')
+[0.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/hook/ament_prefix_path.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/hook/ament_prefix_path.dsv'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/hook/ament_prefix_path.sh'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/yoursolution' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/yoursolution'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.487s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/spinnyrobot'
+[0.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/tr2_red_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/yoursolution -DCMAKE_INSTALL_PREFIX=/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker
+[0.787s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: setopt, saveopts, bdist_rpm, install_scripts, easy_install, register, build_ext, build, bdist_egg, install_data, sdist, install_egg_info, dist_info, build_clib, check, install_lib, install, clean, alias, upload, symlink_data, bdist, develop, test, egg_info, build_py, install_headers, rotate, bdist_dumb, bdist_wheel, build_scripts, upload_docs
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/spinnyrobot': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build install --record /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/install.log --install-scripts $base/lib/spinnyrobot --single-version-externally-managed install_data
+[1.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/spinnyrobot' returned '0': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build install --record /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/install.log --install-scripts $base/lib/spinnyrobot --single-version-externally-managed install_data
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot' for CMake module files
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot' for CMake config files
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/bin'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/pkgconfig/spinnyrobot.pc'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages'
+[1.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('spinnyrobot', 'pythonpath')
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/hook/pythonpath.ps1'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/hook/pythonpath.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/hook/pythonpath.sh'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/bin'
+[1.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spinnyrobot)
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/package.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/package.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/package.sh'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/package.bash'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot/package.zsh'
+[1.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/colcon-core/packages/spinnyrobot)
+[1.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/tr2_red_tracker' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/yoursolution -DCMAKE_INSTALL_PREFIX=/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker
+[1.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tr2_red_tracker)
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker' for CMake module files
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker' for CMake config files
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/bin'
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/lib/pkgconfig/tr2_red_tracker.pc'
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/lib/python3.10/site-packages'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/bin'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/share/tr2_red_tracker/package.ps1'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/share/tr2_red_tracker/package.dsv'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/share/tr2_red_tracker/package.sh'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/share/tr2_red_tracker/package.bash'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/share/tr2_red_tracker/package.zsh'
+[1.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/tr2_red_tracker/share/colcon-core/packages/tr2_red_tracker)
+[1.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.519s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.525s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.525s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.525s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.542s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/local_setup.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/_local_setup_util_ps1.py'
+[1.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/setup.ps1'
+[1.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/local_setup.sh'
+[1.545s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/_local_setup_util_sh.py'
+[1.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/setup.sh'
+[1.546s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/local_setup.bash'
+[1.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/setup.bash'
+[1.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/local_setup.zsh'
+[1.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/setup.zsh'

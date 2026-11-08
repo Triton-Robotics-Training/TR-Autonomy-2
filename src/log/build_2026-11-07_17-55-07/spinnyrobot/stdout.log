@@ -1,0 +1,19 @@
+running egg_info
+writing ../build/spinnyrobot/spinnyrobot.egg-info/PKG-INFO
+writing dependency_links to ../build/spinnyrobot/spinnyrobot.egg-info/dependency_links.txt
+writing entry points to ../build/spinnyrobot/spinnyrobot.egg-info/entry_points.txt
+writing requirements to ../build/spinnyrobot/spinnyrobot.egg-info/requires.txt
+writing top-level names to ../build/spinnyrobot/spinnyrobot.egg-info/top_level.txt
+reading manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/spinnyrobot/spinnyrobot.egg-info to /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spinnyrobot script to /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/spinnyrobot
+writing list of installed files to '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/install.log'

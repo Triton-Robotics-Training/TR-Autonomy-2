@@ -1,0 +1,3 @@
+[console_scripts]
+spinnyrobot = spinnyrobot.spinnyrobot:main
+

@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000240] (-) JobUnselected: {'identifier': 'solution'}
+[0.000279] (-) JobUnselected: {'identifier': 'spinnyrobot'}
+[0.000401] (-) EventReactorShutdown: {}

@@ -1,0 +1,45 @@
+running egg_info
+creating ../build/spinnyrobot/spinnyrobot.egg-info
+writing ../build/spinnyrobot/spinnyrobot.egg-info/PKG-INFO
+writing dependency_links to ../build/spinnyrobot/spinnyrobot.egg-info/dependency_links.txt
+writing entry points to ../build/spinnyrobot/spinnyrobot.egg-info/entry_points.txt
+writing requirements to ../build/spinnyrobot/spinnyrobot.egg-info/requires.txt
+writing top-level names to ../build/spinnyrobot/spinnyrobot.egg-info/top_level.txt
+writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+reading manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build
+creating /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib
+creating /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot
+copying spinnyrobot/__init__.py -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot
+copying spinnyrobot/camerascenemanager.py -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot
+copying spinnyrobot/spinnyrobot.py -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot
+copying spinnyrobot/taskmanager.py -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot
+creating /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot/models
+copying spinnyrobot/models/model.sdf -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot/models
+running install
+running install_lib
+creating /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+copying /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot/__init__.py -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+creating /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/models
+copying /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot/models/model.sdf -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/models
+copying /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot/camerascenemanager.py -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+copying /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot/spinnyrobot.py -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+copying /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/build/lib/spinnyrobot/taskmanager.py -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+byte-compiling /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/camerascenemanager.py to camerascenemanager.cpython-310.pyc
+byte-compiling /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/spinnyrobot.py to spinnyrobot.cpython-310.pyc
+byte-compiling /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/taskmanager.py to taskmanager.cpython-310.pyc
+running install_data
+creating /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/ament_index
+creating /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/ament_index/resource_index
+creating /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/ament_index/resource_index/packages
+copying resource/spinnyrobot -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/ament_index/resource_index/packages
+copying package.xml -> /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/share/spinnyrobot
+running install_egg_info
+Copying ../build/spinnyrobot/spinnyrobot.egg-info to /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spinnyrobot script to /home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/install/spinnyrobot/lib/spinnyrobot
+writing list of installed files to '/home/justin/Robotics/TR-Autonomy-2-Justin-Ackley/src/build/spinnyrobot/install.log'
